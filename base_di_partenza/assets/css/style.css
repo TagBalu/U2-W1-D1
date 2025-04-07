@@ -228,3 +228,14 @@ footer a {
     width: 33%;
   }
 }
+
+@media print {
+  header,
+  footer,
+  iframe,
+  aside,
+  footer,
+  section {
+    display: none;
+  }
+}
